@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.profile1{
+  @apply flex flex-col items-center absolute top-0 ;
+}
+
+.profile2{
+  @apply flex flex-col items-center absolute translate-y-52 translate-x-[-150px] transition-all duration-300 ease-in;
+}
+.profile3{
+  @apply flex flex-col items-center absolute translate-x-[-250px] translate-y-[-60px] ;
+}
+.profile4{
+  @apply flex flex-col items-center absolute translate-x-[250px] translate-y-[-60px];
+}
+.profile5{
+  @apply flex flex-col items-center absolute translate-y-52 translate-x-[150px];
+}
