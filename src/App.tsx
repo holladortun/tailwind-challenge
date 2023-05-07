@@ -1,7 +1,6 @@
 import AddProfile from './components/AddProfile';
 import ProfileList from './components/ProfileList';
-import { useRecoilValue } from 'recoil';
-import { profileNumberState } from './atoms/profilesNumber';
+
 
 function App() {
   return (

@@ -1,5 +1,4 @@
 import { ProfileStructure } from '../utils/profilesData';
-import { useState } from 'react';
 
 interface ProfileProps {
   profile: ProfileStructure;
