@@ -6,14 +6,25 @@ const AddProfile = () => {
 
   return (
     <div>
-      <button
-        className='bg-white rounded-full p-5 absolute bottom-0 left-0 right-0 mx-auto'
+    
+        <button
+          className='bg-white rounded-full p-5 '
+          onClick={() => {
+            setProfileNumber(profileNumber + 1);
+          }}
+        >
+          {' '}
+          Add Profile
+        </button>
+      
+      {/*  <button
+        className='bg-white rounded-full p-5 '
         onClick={() => {
           setProfileNumber(profileNumber + 1);
         }}
       >
         Add Profile
-      </button>
+      </button> */}
     </div>
   );
 };

@@ -12,14 +12,14 @@ const profiles: ProfileStructure[] = [
     name: 'Oladotun',
     imageUrl: '/src/assets/profile1.jpg',
     className: 'profile1',
-    isShown: true,
+    isShown: false,
   },
   {
     id: 2,
     name: 'Olayemi',
     imageUrl: '/src/assets/profie2.jpg',
     className: 'profile2',
-    isShown: true,
+    isShown: false,
   },
   {
     id: 3,

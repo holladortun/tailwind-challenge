@@ -3,7 +3,6 @@ import profiles from '../utils/profilesData';
 import { useRecoilValue } from 'recoil';
 import { profileNumberState } from '../atoms/profilesNumber';
 
-
 const ProfileList = () => {
   const profileNumber = useRecoilValue(profileNumberState);
 
